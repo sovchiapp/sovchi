@@ -1,0 +1,139 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Django
+*.log
+db.sqlite3
+db.sqlite3-journal
+/media
+/staticfiles
+/static
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Redis
+dump.rdb
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# Testing
+.pytest_cache/
+.tox/
+
+# Backup files
+*.bak
+*.backup
+*.sql
+*.sql.gz
+*.dump
+backups/
+
+# UV package manager
+.uv/
+
+# Production configs with secrets
+secrets.json
+credentials.json
+config/secrets/
+secrets/*
+!secrets/.gitkeep
+!secrets/README.md
+CREDENTIALS.md
+
+# SSL certificates
+*.pem
+*.key
+*.crt
+*.csr
+
+# Gunicorn
+gunicorn.pid
+gunicorn.sock
+
+# Logs
+logs/*.log
+*.log
+!logs/.gitkeep
+
+# Migrations (uncomment if you want to ignore migrations)
+# */migrations/*.py
+# !*/migrations/__init__.py
+
+# Windows specific
+$RECYCLE.BIN/
+Desktop.ini
+ehthumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# PyCharm
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Documentation builds
+docs/_build/
+site/
+
+# Node modules (if using)
+node_modules/
+npm-debug.log
+yarn-error.log
+logs/
+
+#Json file for saving missed plan/report
+bot/data/absences.json
+./bot/data/absences.json
