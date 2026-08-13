@@ -1,6 +1,6 @@
 # Sovchi.app — Backend (`aynanai`)
 
-Backend for **Sovchi.app**, a values-based matrimonial / dating platform.
+Backend for **Sovchi.app**, a values-based matrimonial / matchmaking platform.
 Django + DRF REST API, Django Channels WebSockets for real-time chat, calls and
 presence, Celery for background work, and a three-channel notification system
 (in-app, Firebase push, Telegram bot).
